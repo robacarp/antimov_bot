@@ -1,0 +1,12 @@
+#ifndef FUNCTIONS_C
+#define FUNCTIONS_C
+
+#include "WProgram.h"
+#include "functions.h"
+void on(int number){
+  digitalWrite(number,1);
+}
+void off(int number){
+  digitalWrite(number,0);
+}
+#endif
